@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="1dp"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    tools:context="com.example.animality.page2">
+
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:paddingRight="5dp"
+    android:scrollIndicators="right"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="240dp"
+        android:id="@+id/imageView3"
+        android:background="@drawable/cats1"
+        android:onClick="pagecat"
+        android:nestedScrollingEnabled="true" />коты
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="240dp"
+        android:id="@+id/imageView4"
+        android:background="@drawable/dogs1"
+        android:layout_column="2"
+        android:onClick="pagedog" />собаки
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="240dp"
+        android:id="@+id/imageView5"
+        android:background="@drawable/fish1"
+        android:layout_column="1"
+        android:onClick="pagefish" />рыбка
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="240dp"
+        android:id="@+id/imageView6"
+        android:background="@drawable/humster1"
+        android:baselineAlignBottom="true"
+        android:onClick="pagehumster" />хомяк
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="240dp"
+        android:id="@+id/imageView7"
+        android:background="@drawable/guineapig1"
+        android:onClick="pageguinea" />морская свинка
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:id="@+id/imageView8"
+        android:background="@drawable/parrot1"
+        android:onClick="pageparrot" />попугай
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/imageView9"
+        android:background="@drawable/raccoon1"
+        android:onClick="pageraccoon" />енот
+</TableLayout>
+</ScrollView>
